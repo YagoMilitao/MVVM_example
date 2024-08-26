@@ -12,6 +12,7 @@ class MainViewModel: ViewModel() {
 
     init {
         textWelcome.value = "Olá Mundo!"
+
     }
 
     fun welcome(): LiveData<String>{
