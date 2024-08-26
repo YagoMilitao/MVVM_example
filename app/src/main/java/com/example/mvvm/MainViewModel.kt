@@ -23,7 +23,7 @@ class MainViewModel: ViewModel() {
     }
 
     fun doLogin( email:String, password:String){
-        //LOGICA DE VALIDACAO DE EMAIL E SENHA 
+        //LOGICA DE VALIDACAO DE EMAIL E SENHA
         login.value = personRepository.login(email, password)
     }
 }
