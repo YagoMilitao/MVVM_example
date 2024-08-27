@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         enableEdgeToEdge()
         setContentView(binding.root)
 
-
         binding.buttonLogin.setOnClickListener(this)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
